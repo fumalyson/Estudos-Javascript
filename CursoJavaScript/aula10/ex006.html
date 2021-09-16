@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FumalySon</title>
+    <style>
+        div#area{
+            background: brown;
+            color: white;
+            width: auto;
+            height: auto;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id='area'>         
+        ROBS TA NA TOP LANE GANKE ELE!   
+    </div>
+    
+    <script>
+        var area = window.document.getElementById('area')
+        area.addEventListener("click", clicar)
+        area.addEventListener("mouseenter", entrar)
+        area.addEventListener("mouseout", sair)
+        
+        function clicar(){
+            var area = window.document.getElementById('area')
+            area.innerText = "Ganka maiiis iriririri! (Double Kill Robs)"
+            area.style.background = "red"
+        }
+
+        function entrar() {
+            area.innerText = "Naum vai me ganka naaaaummmmmmmmm!!!"
+            }
+
+        function sair() {
+            area.innerText = "Fracote Iriririirriiri"
+            area.style.background = "brown"
+        }
+        
+        
+    </script>
+
+</body>
+</html>

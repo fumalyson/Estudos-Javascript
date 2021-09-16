@@ -1,0 +1,15 @@
+###
+GET http://localhost:3000/admin
+###
+GET http://localhost:3000/admin/250
+###
+POST http://localhost:3000/admin
+Content-Type: application/json
+
+{
+    "login":"fumalyson",
+    "senha":"231277"
+}
+###
+PATCH http://localhost:3000/admin/250
+###
